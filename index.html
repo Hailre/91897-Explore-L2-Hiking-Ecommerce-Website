@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Ecommerce Website</title>
+      <link rel="stylesheet" href="style.css">
+
+     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.typekit.net/yjs0jxw.css">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One& family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <a href="#" class="logo">Travel</a>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="store.html">Shop</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="top-left">
+        <a href="store.html#cart-bottom">
+           <div class="bx bxs-shopping-bags" id="cart-icon"></div>
+       </a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+        <span class="bx bx-menu" id="menu-icon"></span>
+       </button>
+       </div>
+    </header>
+
+    <!--Home-->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h1>EXPLORE</h1>
+                <p>"Lorem ipsum gibberish that is meant to be indistinguishable" - Anonymous Name</p>
+                <h2>Subscribe to our Newsletter</h2>
+                <!----------------Newsletter Start---------------->
+                <div class="send">
+                    <form>
+                        <input type="email" placeholder="Enter Email" required>
+                        <input type="submit" placeholder="Submit">
+                    </form>
+                </div>
+                <!----------------Newsletter End---------------->
+            </div>
+        </section>
+
+<!--------------------BOOKINGS FORM START  [MULTIDIMENSIONAL DATA]------------------->
+    <section class="book-form" id="book-form">
+
+        <form action="">
+            <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+                <span>Where to?</span>
+                  <input  type="" list="browsers" onfocus="this.value=''" placeholder="Select Location"  name="browser" required>
+                  <datalist id="browsers">
+                    <option value="Milford">
+                    <option value="Humpridge">
+                    <option value="Waikere Moana">
+                  </datalist>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+                <span>When?</span>
+                <input type="date" name="somedate" value="" required>
+                <script>
+                    var today = new Date().toISOString().split('T')[0];
+                    document.getElementsByName("somedate")[0].setAttribute('min', today);
+                </script>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+                <span>How Many?</span>
+                <input type="number" placeholder="1-10" value="" max="10" min="1" required>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="150" class="submit" required>
+                <input type="submit" class="btn" value="Book Now">
+            </div>
+        </form>
+    </section>
+<!-----------------------------BOOKINGS FORM START----------------------------->
+
+<!-----------------------------EXPERIENCES START------------------------------->
+    <section class="experiences" id="experiences">
+        <div class="title">
+            <h2>Our Available <br> Hiking Locations</h2>
+        </div>
+
+        <div class="experiences-content">
+            <div class="box">
+                <div class="thum">
+                   <img src="img/img1.png" alt="">
+                    <h3>$499</h3>
+                </div>
+
+                <div class="dest-content">
+                    <div class="location">
+                        <h4>Waikere Moana</h4>
+                        <p>3 - 4days</p>
+                    </div>
+                <div class="stars">
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                </div>
+                </div>
+            </div>
+             <div class="box">
+                <div class="thum">
+                   <img src="img/img2.png" alt="">
+                    <h3>$499</h3>
+                </div>
+
+                <div class="dest-content">
+                    <div class="location">
+                        <h4>Humpridge Trail</h4>
+                        <p>2 days</p>
+                    </div>
+                <div class="stars">
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                </div>
+                </div>
+            </div>
+             <div class="box">
+                <div class="thum">
+                   <img src="img/img3.png" alt="">
+                    <h3>$499</h3>
+                </div>
+
+                <div class="dest-content">
+                    <div class="location">
+                        <h4>Milford Sound</h4>
+                        <p>5 days</p>
+                    </div>
+                <div class="stars">
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                    <a href="#"><i class='bx bxs-star'></i></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-----------------------------EXPERIENCES END------------------------------->
+
+ <!--------------------------VIDEO ADVERTISEMENT START--------------------------->
+    <section1 class="about" id="about">
+
+        <div class="video-container">
+            <video src="img/about-vid-1.mp4" muted autoplay loop class="video"></video>
+            <div class="controls">
+                <span class="control-btn" data-src="img/about-vid-1.mp4"></span>
+                <span class="control-btn" data-src="img/about-vid-2.mp4"></span>
+                <span class="control-btn" data-src="img/about-vid-3.mp4"></span>
+            </div>
+            <div class="content">
+                <h3>Nature's Majesty Awaits You</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde fugit repellat error deserunt nam
+                aperiam odit libero quos provident. Nostrum?<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde fugit repellat error deserunt nam
+                aperiam <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde fugit repellat error deseruntNostrum?<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde fugit repellat error deserunt nam
+                aperiam odit libero  Nostrum?<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde fugit repellat error deserunt nam
+                aperiam odit libero quos provident. Nostrum?<br>Lorem  elit. Unde fugit repellat error deserunt nam
+                aperiam odit libero quos provident. Nostrum?</p>
+            </div>
+        </div>
+    </section1>
+<!--------------------------VIDEO ADVERTISEMENT END--------------------------->
+
+
+<!--------------------------COMPANY OFFERS START--------------------------->
+    <section class="container">
+        <div class="row-items">
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/trip1.png" alt="">
+				</div>
+				<h4>Ferry Crossings</h4>
+				<p>150 Properties</p>
+			</div>
+
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/trip2.png" alt="">
+				</div>
+				<h4>End-trail Meals</h4>
+				<p>150 Properties</p>
+			</div>
+
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/trip3.png" alt="">
+				</div>
+				<h4>Private Beaches</h4>
+				<p>150 Properties</p>
+			</div>
+
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/trip4.png" alt="">
+				</div>
+				<h4>Guided Tours</h4>
+				<p>150 Properties</p>
+			</div>
+
+		</div>
+    </section>
+<!--------------------------COMPANY OFFERS END--------------------------->
+
+<!---------------------------------BANNER START---------------------------------->
+    <section1 id="banner">
+        <div class="container1">
+            <h4>WINTER SALE</h4>
+            <h1>Wet Weather Collection <br>UP TO 20% OFF</h1>
+            <button1 onclick="window.location.href='store.html';">SHOP NOW</button1>
+        </div>
+    </section1>
+<!---------------------------------BANNER END---------------------------------->
+
+<!---------------------FEATURED PRODUCTS START------------------->
+
+<div class="small-container">
+  <h2 class="title">Featured Products</h2>
+  <div class="row">
+    <div class="column">
+      <img src="img/featured/1.jpg" alt="">
+      <h4>Hiking Merch</h4>
+      <div class="stars">
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+      </div>
+      <p>$50.00</p>
+      <button1 onclick="window.location.href='store.html';" class="buy-btn">BUY NOW</button1>
+    </div>
+    <div class="column">
+      <img src="img/featured/2.jpg" alt="">
+      <h4>Hiking Merch</h4>
+      <div class="stars">
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+      </div>
+      <p>$50.00</p>
+      <button1 onclick="window.location.href='store.html';" class="buy-btn">BUY NOW</button1>
+    </div>
+    <div class="column">
+      <img src="img/featured/3.jpg" alt="">
+      <h4>Hiking Merch</h4>
+      <div class="stars">
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+      </div>
+      <p>$50.00</p>
+      <button1 onclick="window.location.href='store.html';" class="buy-btn">BUY NOW</button1>
+    </div>
+    <div class="column">
+      <img src="img/featured/4.jpg" alt="">
+      <h4>Hiking Merch</h4>
+      <div class="stars">
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+          <a href="#"><i class='bx bxs-star'></i></a>
+      </div>
+      <p>$50.00</p>
+      <button1 onclick="window.location.href='store.html';" class="buy-btn">BUY NOW</button1>
+    </div>
+  </div>
+</div>
+<!-------------------FEATURED PRODUCTS END---------------------->
+<!-------------------FOOTER START-------------------->
+<section class="footer">
+    <div class="footer-content">
+            <h5>Contact</h5>
+            <h5>XYZ Road, ABC Building</h5>
+            <h5>Milford Sound, NZ</h5>
+            <h5>+1 2345678910</h5>
+            <h5>info@thebusinessemail.com</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Pellentesque rhoncus pharetra arcu,
+            eget dignissim felis pellentesque at. <br> Aliquam erat volutpat. Nullam cursus ultrices risus vel faucibus.
+            Nam congue sem metus.</p>
+    </div>
+  <div class="icons">
+    <i class='bx bxl-facebook-circle'></i>
+    <i class='bx bxl-twitter'></i>
+    <i class='bx bxl-instagram'></i>
+    <i class='bx bxl-pinterest-alt'></i>
+    <i class='bx bxl-youtube'></i>
+  </div>
+  <h5>Made with <i class='bx bxs-heart'></i> by Radio.artz</h5>
+</section>
+
+<!--------------------FOOTER END---------------------->
+</body>
+    <!--link to javascript functionality-->
+    <script type="text/javascript" src="script.js"></script>
+</html>
