@@ -43,6 +43,7 @@ button:not(hover){
     transition: 0.3s ease;
 }
 
+/*--------------------------CUSTOM ADDITIVES START [Based on Bootstrap]--------------------------*/
 hr{
     width: 30px;
     height: 5px;
@@ -54,8 +55,6 @@ hr{
     margin-bottom: 20px;
     margin-left: 10px;
 }
-
-/*--------ADDITIVES START-------*/
 .container-3{
   padding-right: 35%;
   padding-left: 35%;
@@ -99,7 +98,9 @@ hr{
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
 }
-/*--------ADDITIVES END-------*/
+/*----------------------------ADDITIVES END-------------------------------*/
+
+/*----------------------------HEADER START-------------------------------*/
 header{
     position: fixed;
     top: 0;
@@ -280,7 +281,9 @@ header.sticky{
     font-size: var(--h2-font);
     line-height: 1.1;
 }
+/*----------------------------HEADER END-------------------------------*/
 
+/*----------------------------BOOKING FORM START-------------------------------*/
 .book-form {
   width: 100%;
   margin: 3rem auto;
@@ -351,6 +354,9 @@ section1{
     padding-right: 1rem;
     margin: 50px auto;
 }
+/*----------------------------BOOKING FORM END-------------------------------*/
+
+
 /*----------------------------EXPERIENCES START----------------------------*/
 section{
     padding: 50px -100%;
@@ -435,8 +441,8 @@ section{
     color: #ffffff;
 }
 
-
 /*-----------------------------BANNER END-------------------------------*/
+
 
 /*--------------------------COMPANY OFFERS START------------------------*/
 .row-items{
@@ -545,7 +551,7 @@ section{
 }
 /*----------------------VIDEO ADVERTISEMENT END-----------------------*/
 
-
+/*--------------------------FEATURED PRODUCTS START-------------------------*/
 .column .buy-btn{
     color: #ffffff;
     transform: translateY(20px);
@@ -623,13 +629,15 @@ section{
     opacity: 100%;
     transition: 0.3s ease;
 }
+/*--------------------------FEATURED PRODUCTS END-------------------------*/
 
 
-/*---------------------FEATURED PRODUCTS-----------------------*/
+/*-------------------------------------------------------------------------
 
-/*--------------------FEATURED PRODUCTS END-------------------*/
+                             CONTACT PAGE START
 
-/*-----Contact Page-----*/
+-------------------------------------------------------------------------*/
+
 .contact-col .bx{
     scale: 120%;
     padding-right: 20px;
@@ -716,8 +724,14 @@ section{
     border: 3px solid #ccc;
     box-sizing: border-box;
 }
+/*--------------------------CONTACT PAGE END-------------------------*/
 
-/*--------------------------------ABOUT PAGE START--------------------------------*/
+
+/*-------------------------------------------------------------------------
+
+                             ABOUT PAGE START
+
+-------------------------------------------------------------------------*/
 .about-head{
     position: relative;
     width: 100%;
@@ -798,7 +812,13 @@ section{
     padding: 15px 1px 25px;
 }
 /*--------------------------------ABOUT PAGE END--------------------------------*/
-/*-----Store Page-----*/
+
+
+/*-------------------------------------------------------------------------
+
+                             STORE PAGE START
+
+-------------------------------------------------------------------------*/
 .shop-title{
 	text-align: left;
     padding-left: 10px;
@@ -897,6 +917,9 @@ select:focus{
     background:#FF3E27;
     color: #fff;
 }
+/*--------------------------------ABOUT PAGE END--------------------------------*/
+
+
 /*--------------------------SPRODUCT START--------------------------*/
 .row-3 {
   display: flex;
@@ -956,7 +979,9 @@ input:focus{
     outline: none;
 }
 /*--------------------------SPRODUCT END--------------------------*/
-/* ----- Cart Items Details -----*/
+
+
+/* -----------------------CART ITEMS START -----------------------*/
 .row-purchases{
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(120px, auto));
@@ -1059,7 +1084,10 @@ input:focus{
 .checkout{
     margin-left: auto;
 }
-/*------------FOOTER START----------------------*/
+/* -----------------------CART ITEMS END -----------------------*/
+
+
+/*-------------------------FOOTER START-------------------------*/
 .footer{
     background-image: url(img/backgroundfooter.jpg);
     background-repeat: no-repeat;
@@ -1084,9 +1112,14 @@ input:focus{
 .bxs-heart{
     color: #f44336;
 }
-/*----------------------FOOTER END----------------------*/
+/*-------------------------FOOTER END-------------------------*/
 
 
+/*-------------------------------------------------------------------------
+
+                       MEDIA QUERIES START
+
+-------------------------------------------------------------------------*/
 @media (max-width: 1400px){
     header{
         padding: 17px 3%;
@@ -1285,3 +1318,4 @@ input:focus{
     }
 
 }
+/*-------------------------MEDIA QUERIES END-------------------------*/
